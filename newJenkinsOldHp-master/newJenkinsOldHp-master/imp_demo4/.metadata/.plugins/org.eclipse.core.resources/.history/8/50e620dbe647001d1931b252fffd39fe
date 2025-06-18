@@ -1,0 +1,16 @@
+package com.sj.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.sj.Main;
+
+class TestMain1 {
+
+	 @Test
+	    public void testInputIsEven(){
+	        assertTrue(Main.checkIfInputIsAnEvenNumber(22)); // Assertion
+	    }
+
+}
